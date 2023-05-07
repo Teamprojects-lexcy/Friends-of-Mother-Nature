@@ -319,7 +319,7 @@ nav{
   } */
     .navlinks{
       position: absolute;
-      top: 16.2vh;
+      top: 16vh;
       background-color: rgb(255, 255, 255);
       text-transform: uppercase;
       height: 85%;
