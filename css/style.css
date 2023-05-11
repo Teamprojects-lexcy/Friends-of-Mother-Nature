@@ -29,24 +29,23 @@
   padding: 10px 0;
   gap: 10px;
   justify-content: center;
-  text-transform: uppercase;
-  font-family: 'Bebas Neue', sans-serif;
   z-index: 10;
 }
 .top-logo img{
   width: 60px;
   border-radius: 50%;
-  background-color: red;
   position: fixed;
   z-index: 2000;
 }
 .logo a{
   align-items: center;
-  font-size: 35px;
+  font-size: 40px;
   color: #000;
   justify-content: center;
   text-decoration: none;
-  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 header {
   width: 100%;
