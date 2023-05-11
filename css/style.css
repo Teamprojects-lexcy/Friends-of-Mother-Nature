@@ -26,6 +26,7 @@
   margin: 0 1% 1% 1%;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   display: flex;
+  align-items: center;
   padding: 10px 0;
   gap: 10px;
   justify-content: center;
@@ -34,10 +35,16 @@
 .top-logo img{
   width: 60px;
   border-radius: 50%;
-  position: fixed;
-  z-index: 2000;
+}
+.logo2 img{
+  width: 60px;
+  margin-left: 12px;
+  align-items: center;
+  margin-top: 6px;
+  border-radius: 50%;
 }
 .logo a{
+  display: flex;
   align-items: center;
   font-size: 40px;
   color: #000;
@@ -142,74 +149,6 @@ li > a {
     padding: 1% 7% 5% 5%;
     margin-bottom: 20px;
   }
-/* slide images*/
-
-.container{
-  background-color: #ffffff;
-  width: 0%;
-  min-width: 520px;
-  position: relative;
-  transform: translate(-50%,-50%);
-  left: 50%;
-  /* top: 50%; */
-  border-radius: 5px;
-  padding: 30px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-}
-.image-container{
-  position: relative;
-  width: 100%;
-}
-img{
-  position: relative;
-  width: 100%;
-  display: none;
-}
-.active{
-  display: block;
-}
-.dot-container{
-  width: 150px;
-  margin: 20px auto 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-button{
-  outline: none;
-  cursor: pointer;
-}
-.dot-container button{
-  height: 13px;
-  width: 13px;
-  border-radius: 50%;
-  border: 3px solid #8052ec;
-  background-color: transparent;
-}
-.dot-container button:nth-child(1){
-  background-color: #8052ec;
-}
-#prev,#next{
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  background-color: #8052ec;
-  color: #ffffff;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  border: none;
-  border-radius: 3px;
-  font-size: 18px;
-  font-weight: bolder;
-}
-#prev{
-  left: 15px;
-}
-#next{
-  right: 15px;
-}
-
 
 
 /* Formating Images */
@@ -395,6 +334,9 @@ nav{
   }
   .top-logo img{
     width: 30px;
+  }
+  .logo2 img{
+    display: none;
   }
     .navlinks{
       position: absolute;
