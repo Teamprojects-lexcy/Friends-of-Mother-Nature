@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ::selection {
+      background: #5f457e;
+    }
+    ::-webkit-scrollbar{
+      width: 5px;
+      background-color: #000000d7;
+    }
+    ::-webkit-scrollbar-thumb{
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+      background: linear-gradient(transparent, rgba(255, 255, 255, 0.6));
+    }
+/* Default styles */
+
+.content {
+    width: 95vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .holdcontent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .left {
+    float: left;
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .right {
+    float: right;
+    width: 55%;
+    padding-top: 10px;
+  }
+  
+  .left img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Responsive styles */
+  
+  @media only screen and (max-width: 768px) {
+    .content{
+        width: 90vw;
+        overflow: hidden;
+        margin-left: 12px;
+    }
+    .holdcontent {
+      position: static;
+      width: 95%;
+      height: auto;
+    }
+  
+    .left {
+      float: none;
+      width: 100%;
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .right {
+      float: none;
+      width: 100%;
+      padding-top: 20px;
+    }
+    .left img {
+        width: 100%;
+        border-radius: unset;
+      }
+      p{
+        display: flex;
+        text-align: justify;
+      }
+  }
+  
