@@ -28,7 +28,7 @@
   width: 100%;
 }
 .text h2{
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 600;
   margin-bottom: 10px;
 
@@ -39,7 +39,7 @@
   margin-bottom: 20px;
 }
 span{
-  color: #4070f4;
+  color: #03a58f;
 }
 .text p{
   font-size: 18px;
@@ -51,7 +51,7 @@ span{
 }
 .talk-to-us{
   font-size: 18px;
-  background: #4070f4;
+  background: linear-gradient(90deg, #022c36d0, #037e65, #022c36);
   color: #fff;
   text-decoration: none;
   border: none;
