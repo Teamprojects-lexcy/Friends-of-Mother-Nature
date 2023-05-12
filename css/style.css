@@ -105,7 +105,7 @@ nav > ul > li {
 
 nav > ul > li:hover {
   background-color: #dfdfe2;
-  color: #1b1b32;
+  color: #321b2a;
   cursor: pointer;
 }
 
@@ -208,10 +208,16 @@ li > a {
     transform: translate(-50%, -50%);
     color: rgb(255, 251, 251);
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: 'Bruno Ace SC', cursive;
     font-weight: bold;
     text-decoration: none;
     opacity: 0;
+    background: linear-gradient(180deg, #4c698159, #335a3e); 
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
     transition: opacity 0.2s ease-in-out;
   }
 
@@ -232,7 +238,9 @@ li > a {
     content: "";
     width: 350px;
   }
-
+  .bannerimg{
+    width: 100%;
+  }
 
 
 
@@ -442,7 +450,7 @@ nav{
       display: flex;
       justify-content: center;
       border-radius: 20px;
-      background: linear-gradient(180deg, #81abce59, #57665b);
+      background: linear-gradient(180deg, #4c698159, #335a3e);
       padding: 10px;
     }
   }
