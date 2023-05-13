@@ -257,48 +257,22 @@ li > a {
 .footer-info{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* background-color: red; */
 }
 .footer-info a{
   color: #000;
+  /* background-color: green; */
 }
 .end{
   position: absolute;
   bottom: 0;  
 }
 .socials, .donation, .goals{
-  width: 100%;
   justify-content: center;
   align-items: center;
 }
-.donation{
-  display: flex;
-  align-items: center;
-}
-.donate{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.donate a{
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: rgb(167, 77, 36);
-  padding: 10px 35px;
-  font-size: 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  color: #fff;
-  border: 1px #000 double;
-  outline: 1px solid rgb(0, 0, 0);
-  outline-offset: 2px;
-}
-.donate a:hover{
-  background-color: rgba(234, 251, 252, 0.822);
-  outline-offset: .5px;
-  color: #000;
-  transition: .2s ease-in-out;
-}
+
 .handle{
   margin: 10px 50px;
   gap: 10px;
